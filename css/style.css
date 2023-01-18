@@ -1,0 +1,177 @@
+/*Обнуление*/
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:focus,
+:active {
+    outline: none;
+}
+a:focus,
+a:active {
+    outline: none;
+}
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+input::-ms-clear {
+    display: none;
+}
+button {
+    cursor: pointer;
+}
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+a,
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+ul li {
+    list-style: none;
+}
+img {
+    vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+/*--------------------*/
+
+body {
+    font-family: "TimesNewRomanPSMT", "Travel", Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+.main {
+    width: 1440px;
+    height: 1560px;
+    background: url("../img/Curved_lines.png") 50% 120px / 1190px 1064px no-repeat, #e8e8e8;
+}
+
+.name-card {
+    display: inline-block;
+    width: 67px;
+    height: 10px;
+    text-transform: uppercase;
+    opacity: 0.6;
+    font-size: 14px;
+    margin-top: 160px;
+}
+
+h1 {
+    margin: 30px auto 75px auto;
+    font-size: 35px;
+    width: 721px;
+    height: 75px;
+    font-family: "Arial MT";
+    color: #273d46;
+}
+
+.picture {
+    max-width: 841px;
+    height: 561px;
+    background: url("../img/light-man.png") center/96% 95% no-repeat, #ffffff;
+    box-shadow: 0 15px 65px rgba(15, 16, 16, 0.15);
+    margin: 75px auto 100px;
+}
+
+.text {
+    opacity: 0.8;
+    color: #273d46;
+    font-size: 24px;
+    width: 736px;
+    font-family: "Arial MT";
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.text .p-1 {
+    margin-bottom: 15px;
+}
+
+.text .p-2 {
+    margin: 15px auto 30px;
+}
+
+.list {
+    margin-top: 65px;
+    margin-left: 352px;
+    font-size: 20px;
+}
+
+.list li {
+    text-align: left;
+    background: url("../img/check_icon.png") left/15px no-repeat;
+    padding: 5px 25px;
+}
+
+.list .text-2 {
+    color: #80b7b3;
+    font-style: italic;
+}
+.list .text-3 {
+    font-weight: bold;
+}
+
+.list .text-4 {
+    text-decoration: line-through;
+}
+
+.button a {
+    text-transform: uppercase;
+    color: #e8e8e8;
+}
+
+.button img {
+    padding-left: 10px;
+    vertical-align: middle;
+}
+
+.button {
+    width: 199px;
+    line-height: 44px;
+    border-radius: 20px;
+    background: #80b7b3;
+    margin: 60px 0 130px 352px;
+    box-shadow: 0 6px 40px rgba(128, 183, 179, 0.54);
+}
